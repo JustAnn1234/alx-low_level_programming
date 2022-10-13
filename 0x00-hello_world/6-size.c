@@ -8,10 +8,9 @@
  *
  *    *Return:zero if no error, Non-zero value  if errors.
  *
- */
+*/
 
 int main(void)
-
 {
 
 		printf("Size of a char: %ld byte(s)\n", sizeof(char));
