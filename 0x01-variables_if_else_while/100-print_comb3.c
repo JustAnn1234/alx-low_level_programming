@@ -1,4 +1,7 @@
-*Return:0 success, non zero fail
+#include <stdio.h>
+/**
+ *main-program entry point.
+ *Return:0 success, non zero fail
  */
 int main(void)
 {
