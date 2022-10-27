@@ -1,18 +1,20 @@
-include "main.h"
+#include "main.h"
+
 char *_strcat(char *dest, char *src)
 {
-	int destLen = 0;
-	int srcLen = 0;
-
-	while (dest[destLen] != '\0')destLen++;
+	int count = 0, count2 = 0;
 	
-	while (src[srcLen])
+	while (*(dest + count) != '\0'
 	{
-		dest[destLen] = src[srcLen];
-		srcLen++;
-		destLen++;
+		count++;
 	}
-	dest[destLen] = '\0';
-
+	
+	while (count2 >= 0)
+	{
+		*(dest + count) = *(src + count2);
+		if (*(src + count2) == '\0')break;
+		count++;
+		count2++;
+	}
 	return (dest);
 }
