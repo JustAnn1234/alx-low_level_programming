@@ -33,7 +33,7 @@ char *_memset(char *s, char b, unsigned int n)
  * @size: size of each element
  *
  * Return: pointer to new allocated memory
- **/
+ */
 
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
