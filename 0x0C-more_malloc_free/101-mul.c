@@ -76,7 +76,7 @@ void multiply(char *s1, char *s2)
 
 	for (l1--; l1 >= 0; l1--)
 	{
-		_digit = s1[l1] - '0';
+		f_digit = s1[l1] - '0';
 		res = 0;
 		l2 = tmp;
 		for (l2--; l2 >= 0; l2--)
@@ -125,7 +125,7 @@ int main(int argc, char *argv[])
 
 	if (*n1 == '0' || *n2 == '0')
 	{
-		_putchar('0');
+		_puthar('0');
 		_putchar('\n');
 	}
 	else
