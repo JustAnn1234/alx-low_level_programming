@@ -1,1 +1,1 @@
-My dynamic library readme
+My dynamic library
